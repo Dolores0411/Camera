@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Camera2</string>
+    <string name="capture">Camera</string>
+    <string name="record">Video</string>
+    <string name="beauty">Beauty</string>
+    <string name="scale_four_three">4:3</string>
+    <string name="scale_one_one">1:1</string>
+    <string name="quality_small">480p</string>
+    <string name="quality_large">720p</string>
+</resources>

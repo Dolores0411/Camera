@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#40000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popwin_margin_eight"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/flash_light_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_flash_light" />
+
+        <ImageView
+            android:id="@+id/flash_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/popwin_margin_five"
+            android:src="@drawable/ic_flash_auto" />
+
+        <ImageView
+            android:id="@+id/flash_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/popwin_margin_five"
+            android:src="@drawable/ic_flash_close" />
+
+        <ImageView
+            android:id="@+id/flash_highlight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/popwin_margin_five"
+            android:src="@drawable/ic_flash_highlight" />
+    </LinearLayout>
+
+</RelativeLayout>

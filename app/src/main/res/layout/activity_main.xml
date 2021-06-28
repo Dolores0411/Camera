@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorTransparent" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/for_nothing"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/for_camera"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|right"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/capture"
+                android:textColor="#BDBDBD"
+                android:textSize="@dimen/home_screen_size" />
+
+            <TextView
+                android:id="@+id/for_record"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/record"
+                android:textColor="#BDBDBD"
+                android:textSize="@dimen/home_screen_size" />
+
+            <TextView
+                android:id="@+id/for_beauty"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/beauty"
+                android:textColor="#BDBDBD"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</FrameLayout>

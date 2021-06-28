@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picture_radius">65dp</dimen>
+    <dimen name="thumbnail_margin_gap">40dp</dimen>
+    <dimen name="side_length">50dp</dimen>
+    <dimen name="frame_height">70dp</dimen>
+    <dimen name="margin_top_bottom">10dp</dimen>
+    <dimen name="thumbnail_width">45dp</dimen>
+    <dimen name="thumbnail_height">45dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="scale_textSize">13dp</dimen>
+    <dimen name="quality_textSize">12dp</dimen>
+    <dimen name="popwin_margin_eight">13dp</dimen>
+    <dimen name="popwin_margin_five">5dp</dimen>
+    <dimen name="length_fifty">50dp</dimen>
+    <dimen name="tv_width">25dp</dimen>
+    <dimen name="tv_max_width">32dp</dimen>
+    <dimen name="tv_height">18dp</dimen>
+    <dimen name="im_scale_marginright">38dp</dimen>
+    <dimen name="home_screen_size">15dp</dimen>
+</resources>
